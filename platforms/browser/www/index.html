@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"
+    />
+    <title>Blank App</title>
+    <link rel="stylesheet" href="css/onsenui.css" />
+    <link rel="stylesheet" href="css/onsen-css-components.min.css" />
+    <style>
+      img {
+        width: 100%;
+      }
+      p {
+        margin: 20px;
+      }
+      .fig {
+        text-align: center;
+        font-weight: bold;
+      }
+      .mypage {
+        background-color: white;
+      }
+      h3 {
+        margin-left: 20px !important;
+      }
+
+      a {
+        display: inline-block;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .wp-caption-text {
+        display: none !important;
+      }
+
+      .wp-caption,
+      iframe {
+        display: none !important;
+      }
+      .subject-list {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <ons-splitter>
+      <ons-splitter-side
+        id="menu"
+        side="left"
+        width="80%"
+        collapse
+        swipeable
+        swipe-target-width="1"
+        page="menu.html"
+      >
+      </ons-splitter-side>
+
+      <ons-splitter-content
+        id="content"
+        page="navicontainer.html"
+      ></ons-splitter-content>
+    </ons-splitter>
+
+    <template id="temp-news.html"></template>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/onsenui.min.js"></script>
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="wpapi/wpapi.min.js"></script>
+    <script src="draggabilly.pkgd.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<ons-page id="5-enrolled.html">
+  <ons-toolbar>
+    <div class="left">
+      <div class="left"><ons-back-button>Home</ons-back-button></div>
+    </div>
+    <div class="center" style="text-align: center"></div>
+  </ons-toolbar>
+  <div class="ui-content"></div>
+
+  <div style="text-align:center; margin-top:10%">
+    <p style="text-align: 'center'; margin-top:10%">
+      Enter your name to check for enrolled courses. Names are not
+      case-sensitive.
+    </p>
+    <p style="text-align: 'center'; margin-top:10%">
+      <ons-input
+        id="studentname"
+        modifier="underbar"
+        placeholder="Student name"
+        float
+      ></ons-input>
+    </p>
+
+    <p style="text-align: center; margin-top: 30px;">
+      <ons-button onclick="getEnrolledCourses()">Check my courses</ons-button>
+    </p>
+    <p style="text-align: center; margin-top: 30px;">
+      <ons-button onclick="clearNameInput()">Clear</ons-button>
+    </p>
+  </div>
+  <div style="text-align:center; margin-top: 10%; visibility: hidden">
+    <ons-progress-circular
+      indeterminate
+      class="progress-circular"
+    ></ons-progress-circular>
+  </div>
+</ons-page>

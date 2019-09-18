@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="my.edu.hjuapp" version="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Han Chiang App</name>
+    <description>
+        Onsen version - App for Hanchiang for accessing news, calendar, timetable and exam results.
+    </description>
+    <author email="paulchin@hju.edu.my" href="http://hju.edu.my">
+        Paul
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <icon src="icon144.png" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-targetSdkVersion" value="26" />
+    <preference name="orientation" value="portrait" />
+</widget>

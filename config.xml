@@ -1,0 +1,28 @@
+<?xml version='1.2' encoding='utf-8'?>
+<widget id="my.image.bg" version="1.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Background Image Example</name>
+    <description>
+        Background Image Example
+    </description>
+    <author email="youremail@gmail.com" href="http://androidresearch.net">
+        Android Research
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <platform name="android">
+        <preference name="android-minSdkVersion" value="16" />
+        <allow-intent href="market:*" />
+    </platform>
+    
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-targetSdkVersion" value="26" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
+    <plugin name="cordova-plugin-console" spec="~1.0.1" />
+    <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
+
+    <preference name="orientation" value="portrait" />
+
+    <icon src="icon144.png" />
+</widget>

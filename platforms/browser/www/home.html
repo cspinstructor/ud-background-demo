@@ -1,0 +1,54 @@
+<ons-page id="home.html">
+  <ons-toolbar>
+    <div class="center" style="text-align: center">
+      Han Chiang App
+    </div>
+    <div class="right">
+      <ons-toolbar-button onclick="fn.openMenu()">
+        <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
+      </ons-toolbar-button>
+    </div>
+  </ons-toolbar>
+
+  <ons-card style="padding: 0px">
+    <img src="images/HCUC-xlarge.jpg" alt="home-banner" style="width: 100%" />
+  </ons-card>
+  <ons-card onclick="fn.load('1-news.html', '1. News')">
+    <div class="title">1. News</div>
+    <div class="content">
+      Events and happenings in Han Chiang University College
+    </div>
+  </ons-card>
+  <ons-card onclick="fn.load('2-timetable.html', '2. Timetable')">
+    <div class="title">2. Timetable</div>
+    <div class="content">
+      Master time table for all schools
+    </div>
+  </ons-card>
+  <ons-card onclick="fn.load('3-classroom.html', '3. Classroom Bookings')">
+    <div class="title">3. Classroom Bookings</div>
+    <div class="content">
+      Classroom bookings for all schools
+    </div>
+  </ons-card>
+  <ons-card onclick="fn.load('4-calendars.html', '4. Academic Calendars')">
+    <div class="title">4. Academic Calendars</div>
+    <div class="content">
+      Academic calendars for all schools
+    </div>
+  </ons-card>
+  <ons-card onclick="fn.load('5-enrolled.html', '5. Check enrolled courses')">
+    <div class="title">5. Check enrolled courses</div>
+    <div class="content">
+      Check enrolled courses
+    </div>
+  </ons-card>
+  <ons-card
+    onclick="fn.load('6-registersubjects.html', '6. Register Subjects')"
+  >
+    <div class="title">6. Register Subjects</div>
+    <div class="content">
+      Register Subjects
+    </div>
+  </ons-card>
+</ons-page>
