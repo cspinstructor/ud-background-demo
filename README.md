@@ -1,3 +1,3 @@
-# Arabic Font Test App
+# Background image demo
 
 
